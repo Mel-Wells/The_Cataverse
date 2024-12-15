@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cataverse</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>The Cataverse</h1><a href="gio.html"><img src="images/gio.png" alt="a really fat tuxedo cat." id="gio"></a>
+        <marquee>This must be the place...</marquee>
+        <img src="images/AnnWalkCat.gif" id="catwalk" alt="A cute tabby cat walking">
+        <img src="images/catchase.gif" class="catchase" alt="small orange cat running back and forth">
+        
+        <div class="layout_activities">
+            
+            <table> 
+                <tr>
+                    <th><img src="images/btnGetDilbert.gif" alt="A cartoon ofice guy"></th>
+                    <th><img src="images/check-it-out.gif" alt="Text saying check it out"></th>
+                    <th><img src="images/getmozilla.gif" alt="gif text telling you to get mozilla"></th>
+                </tr>
+                <tr>
+                    <th><img src="images/get_real.gif" alt="image telling you to get real player"></th>
+                    <th><img src="images/Getie.gif" alt="image telling you to get internet explorer"></th>
+                    <th><img src="images/mail4.gif" alt="image of a letter e flying"></th>
+                </tr>
+                <tr>
+                    <th><img src="images/y2k.gif" alt="Has words y2k"></th>
+                    <th><img src="images/webdesign.gif" alt="image saying web design is my passion"></th>
+                    <th><img src="images/gbdreamzoflife1.gif"></th>
+                </tr>
+                <tr>
+                    <th><img src="images/GetWMPblue.gif" alt="Image telling you to get winamp"></th>
+                    <th><img src="images/madewith.gif" alt="image saying made with love"></th>
+                    <th><img src="images/buttonsanimatedspeed.gif" alt="image with flashing different buttons"></th>
+                </tr>
+                <tr>
+                    <th><img src="images/cat.gif" alt="Cute pink cat button"></th>
+                    <th><a href="https://plasticdino.neocities.org/graphics"><img src="images/plasticdino.gif"></a></th>
+                    <th><img src="images/sendmail.gif" image></th>
+                </tr>
+                </table>
+                <img src="images/Babycha.gif" alt="silly dancing baby" class="dancing-baby">
+            <div class="main">
+                <div class="title-bar">
+                    <button class="button">_</button>
+                    <button class="button">&#x1F5D6;</button>
+                    <button class="button">X</button>
+                </div>
+                    <p>Welcome to the cataverse! Where all things are cat (sort of).<br> This 90s themed cat universe is 
+                        the ultimate escape into a world of whiskers, fluffy tails, and lots of cattitude (cat attitude).<br>
+                        Click on any cat to get to know them better, and don't forget to stick around for some good vibes. 
+                    </p>
+
+                    <p><i>P.S.</i>The song playing is also called "This Must be the Place" by Talking Heads. 
+                        I hope you enjoy the song and and also enjoy browsing This site as much as I did making it!</p>
+                </div>    
+        </div>
+        <img src="images/catchase.gif" class="catchase" alt="small orange cat running back and forth">
+        <section id="rotating_cube">
+            <div class="cube">
+                <div class="box box1">
+                    <a href="gizmo.html"><img src="images/gizmo_face.png" alt="image 1"></a>
+                </div>
+                <div class="box box2">
+                    <a href="gizmo.html"><img src="images/gizmo_face.png" alt="image 2"></a>
+                </div>
+                <div class="box box3">
+                    <a href="gizmo.html"><img src="images/gizmo_face.png" alt="image 3"></a>
+                </div>
+                <div class="box box4">
+                    <a href="gizmo.html"><img src="images/gizmo_face.png" alt="image 4"></a>
+                </div>
+                <div class="box box5">
+                    <a href="gizmo.html"><img src="images/gizmo_face.png" alt="image 5"></a>
+                </div>
+                <div class="box box6">
+                    <a href="gizmo.html"><img src="images/gizmo_face.png" alt="image 6"></a>
+                </div>
+            </div>
+        </section>
+        <h2 class="center_or_else">Oh no... He's stuck in the cube. Free him?</h2>
+        <p class="center_or_else">Yes or <a href="https://youtu.be/dQw4w9WgXcQ?si=QncbnlWKxuUGi7da">No?</a><br>
+        If yes... Click the cube!</p>
+        
+        <div class="music-container">
+            <button id="mute-toggle" class="mute-button">&#128264;</button>
+        </div>
+        <audio id="background-music" src="music/09 - This Must Be the Place (Naive Melody).mp3" autoplay loop></audio>
+        <script>
+            const music = document.getElementById('background-music');
+            const muteToggle = document.getElementById('mute-toggle');
+
+        
+            muteToggle.addEventListener('click', () => {
+                if (music.muted) {
+                    music.muted = false;
+                    muteToggle.textContent = '🔈'; 
+                } else {
+                    music.muted = true;
+                    muteToggle.textContent = '🔇'; 
+                }
+            });
+
+        </script>
+            
+
+    </body>
+    <hr>
+    <footer>
+        <p>Made with love by <a href="https://github.com/Mel-Wells">Mel</a> &#x2665;&#xfe0f;</p>
+        
+    </footer>
+</html>

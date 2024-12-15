@@ -1,0 +1,333 @@
+@font-face {
+	font-family: Doto;
+	src: url('fonts/Doto/Doto-VariableFont_ROND\,wght.ttf') format('truetype');
+	font-weight: bold; 
+}
+
+
+body{
+    background-image: url("images/starrybg.gif");
+    font-family: 'Comic Sans', 'Comic Sans MS', sans-serif;
+}
+
+p, ul{
+	color: white;
+	margin: 25px;
+}
+
+p {
+	font-size: 18px;
+}
+
+h1 {
+    
+    display: inline-block;
+	color: #80C4E9; 
+    vertical-align: middle;
+	margin-left: 560px;
+	font-size: 50px;
+    font-family: 'Comic Sans', 'Comic Sans MS', sans-serif;
+	text-align: center;
+}
+
+a {
+	color: white;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #80C4E9;
+}
+.dancing-baby {
+    display: block; 
+    margin: 10px auto; 
+    width: 150px; 
+}
+
+
+footer {
+	text-align: center; 
+	background-color: #000000a8;
+}
+
+#catwalk {
+	display: block;
+  	margin-right: auto;
+	margin-left: 7%;
+	margin-bottom: -50px;
+    width: 5%;
+}
+
+.catchase {
+	display: block;
+	margin-left: auto;
+	margin-right: 4%;
+	width: 20%;
+}
+
+
+.groovy_alien1, .groovy_alien2, .groovy_alien3 {
+	max-width: 100px;
+	height: auto;
+	display: inline-flex; 
+	justify-content: center;
+
+}
+
+
+
+marquee {
+    font-size: 20px; 
+	font-family: Doto; 
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#gio {
+    width: 10%;
+    height: auto;
+	margin-right: 0px;
+	animation: float 2s ease-in-out infinite;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.music-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.mute-button {
+    cursor: pointer;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+    transition: transform 0.2s;
+}
+
+.mute-button:hover {
+    transform: scale(1.1);
+}
+
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.alien_activities{
+	display: flex; 
+    justify-content: center; 
+    gap: 10px; /* Space between each alien */
+    margin-bottom: 20px; /* Adds space below the aliens */
+}
+
+.layout_activities {
+	display: flex;
+	gap: 20px;
+	padding: 20px;
+}
+
+.ufo {
+	position: absolute; 
+    top: 100%; 
+    left: -200px; 
+    width: 150px; 
+    height: auto; 
+    animation: fly-across-middle 5s linear infinite; 
+	z-index: 1;
+}
+
+@keyframes fly-across-middle {
+	0%{
+		left: 1350px;
+	}
+	100% {
+		right: 100px;
+
+	}
+}
+
+.title-bar {
+	background-color: blue;
+    box-shadow: inset 1px 1px #fff, inset -1px -1px #000;
+    display: flex;
+	justify-content: flex-end;
+    padding: 0;
+    border-bottom: 2px solid #808080;
+    height: 20px;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+	padding: 4px;
+	
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #bdbdbd;
+	box-shadow: inset 1px 1px #fff, 1px 1px #000;
+}
+
+.buttons{
+	background-color: #f0f0f0; 
+	border: 1px solid black;
+	box-shadow: inset 1px 1px #fff, 1px 1px #000;
+	width: 90%; 
+	height: 90;
+	cursor: pointer; 
+}
+
+.main {
+	width: 400px;
+    flex: content; 
+    background-color: #000000a8;
+    color: white;
+	border: 3px solid grey;
+	margin: 20px auto;
+	
+	animation: float 7s ease-in-out infinite;
+
+}
+
+.center_or_else {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	position: relative; 
+}
+
+#rotating_cube + .center_or_else {
+	margin-top: -150px;
+}
+
+.gio-cat {
+	width: 50%;
+	height: 75%;
+	margin-left: 100px;
+	margin-top: 45px;
+	border: 2px solid grey
+}
+
+.gizmo-cat {
+	width: 60%;
+	height: 75%;
+	margin-left: 70px;
+	margin-top: 45px;
+	border: 2px solid grey; 
+}
+
+.back-button {
+	width: 150px; 
+    height: auto; 
+    bottom: 10px; 
+}
+
+
+/* This begins the section with the cube*/
+
+#rotating_cube { 
+	display: flex; 
+	height: 100vh; 
+	justify-content: center; 
+	align-items: center; 
+    
+	
+} 
+
+.cube { 
+	width: 200px; 
+	height: 200px; 
+	position: relative; 
+	transform-style: preserve-3d; 
+	animation: rotate 10s linear infinite; 
+    
+} 
+
+img { 
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover; 
+} 
+
+/* This lets me edit the cube as a whole */
+.box { 
+	width: 100%; 
+	height: 100%; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	opacity: 0.9; 
+    border: 2px solid white;
+} 
+
+/* Applying styles to each face */
+.box1 { 
+	transform: translateZ(100px); 
+} 
+
+.box2 { 
+	transform: rotateY(90deg) translateX(100px); 
+	transform-origin: right; 
+} 
+
+.box3 { 
+	transform: rotateY(180deg) translateZ(100px); 
+} 
+
+.box4 { 
+	transform: rotateY(-90deg) translateX(-100px); 
+	transform-origin: left; 
+} 
+
+.box5 { 
+	transform: rotateX(-90deg) translateY(-100px); 
+	transform-origin: top; 
+} 
+
+.box6 { 
+	transform: rotateX(90deg) translateY(100px); 
+	transform-origin: bottom; 
+} 
+
+/* Animating the elements */
+@keyframes rotate { 
+	0%, 
+	100% { 
+		transform: rotate(0deg); 
+	} 
+	20% { 
+		transform: rotateY(90deg) rotateZ(90deg); 
+	} 
+	40% { 
+		transform: rotateY(180deg) rotateZ(-90deg); 
+	} 
+	60% { 
+		transform: rotateY(270deg) rotateZ(90deg); 
+	} 
+	80% { 
+		transform: rotateY(360deg) rotateZ(-90deg); 
+	} 
+}
