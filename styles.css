@@ -6,8 +6,8 @@
 
 
 body{
-    background-image: url("images/starrybg.gif");
-    font-family: 'Comic Sans', 'Comic Sans MS', sans-serif;
+   	 background-image: url("images/starrybg.gif");
+    	font-family: 'Comic Sans', 'Comic Sans MS', sans-serif;
 }
 
 p, ul{
@@ -21,12 +21,12 @@ p {
 
 h1 {
     
-    display: inline-block;
+    	display: inline-block;
 	color: #80C4E9; 
-    vertical-align: middle;
+   	vertical-align: middle;
 	margin-left: 560px;
 	font-size: 50px;
-    font-family: 'Comic Sans', 'Comic Sans MS', sans-serif;
+    	font-family: 'Comic Sans', 'Comic Sans MS', sans-serif;
 	text-align: center;
 }
 
@@ -39,9 +39,9 @@ a:hover {
 	color: #80C4E9;
 }
 .dancing-baby {
-    display: block; 
-    margin: 10px auto; 
-    width: 150px; 
+   	 display: block; 
+    	margin: 10px auto; 
+    	width: 150px; 
 }
 
 
@@ -55,7 +55,7 @@ footer {
   	margin-right: auto;
 	margin-left: 7%;
 	margin-bottom: -50px;
-    width: 5%;
+   	 width: 5%;
 }
 
 .catchase {
@@ -77,16 +77,16 @@ footer {
 
 
 marquee {
-    font-size: 20px; 
+    	font-size: 20px; 
 	font-family: Doto; 
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
+    	color: white;
+    	padding: 10px;
+    	margin-top: 10px;
 }
 
 #gio {
-    width: 10%;
-    height: auto;
+    	width: 10%;
+    	height: auto;
 	margin-right: 0px;
 	animation: float 2s ease-in-out infinite;
 }
@@ -137,9 +137,9 @@ body {
 
 .alien_activities{
 	display: flex; 
-    justify-content: center; 
-    gap: 10px; /* Space between each alien */
-    margin-bottom: 20px; /* Adds space below the aliens */
+    	justify-content: center; 
+    	gap: 10px; /* Space between each alien */
+    	margin-bottom: 20px; /* Adds space below the aliens */
 }
 
 .layout_activities {
@@ -150,11 +150,11 @@ body {
 
 .ufo {
 	position: absolute; 
-    top: 100%; 
-    left: -200px; 
-    width: 150px; 
-    height: auto; 
-    animation: fly-across-middle 5s linear infinite; 
+    	top: 100%; 
+    	left: -200px; 
+    	width: 150px; 
+    	height: auto; 
+    	animation: fly-across-middle 5s linear infinite; 
 	z-index: 1;
 }
 
@@ -170,13 +170,13 @@ body {
 
 .title-bar {
 	background-color: blue;
-    box-shadow: inset 1px 1px #fff, inset -1px -1px #000;
-    display: flex;
+    	box-shadow: inset 1px 1px #fff, inset -1px -1px #000;
+    	display: flex;
 	justify-content: flex-end;
-    padding: 0;
-    border-bottom: 2px solid #808080;
-    height: 20px;
-    position: relative;
+   	padding: 0;
+    	border-bottom: 2px solid #808080;
+    	height: 20px;
+    	position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -202,14 +202,12 @@ body {
 
 .main {
 	width: 400px;
-    flex: content; 
-    background-color: #000000a8;
-    color: white;
+	flex: content; 
+	background-color: #000000a8;
+	color: white;
 	border: 3px solid grey;
 	margin: 20px auto;
-	
 	animation: float 7s ease-in-out infinite;
-
 }
 
 .center_or_else {
@@ -241,8 +239,8 @@ body {
 
 .back-button {
 	width: 150px; 
-    height: auto; 
-    bottom: 10px; 
+    	height: auto; 
+    	bottom: 10px; 
 }
 
 
@@ -280,7 +278,7 @@ img {
 	top: 0; 
 	left: 0; 
 	opacity: 0.9; 
-    border: 2px solid white;
+    	border: 2px solid white;
 } 
 
 /* Applying styles to each face */
