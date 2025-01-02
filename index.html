@@ -85,21 +85,25 @@
         If yes... Click the cube!</p>
         
         <div class="music-container">
-            <button id="mute-toggle" class="mute-button">&#128264;</button>
+            <button id="mute-toggle" class="play-button">▶️</button>
         </div>
-        <audio id="background-music" src="music/09 - This Must Be the Place (Naive Melody).mp3" autoplay loop></audio>
+        <audio id="background-music" src="music/09 - This Must Be the Place (Naive Melody).mp3" loop></audio>
         <script>
             const music = document.getElementById('background-music');
             const muteToggle = document.getElementById('mute-toggle');
 
-        
+            music.muted = true;
+            music.pause();
+
             muteToggle.addEventListener('click', () => {
-                if (music.muted) {
-                    music.muted = false;
-                    muteToggle.textContent = '🔈'; 
+                if (music.paused) {
+                    music.muted = false; // Unmute the music
+                    music.play(); // Start playing
+                    muteToggle.textContent = '⏸️'; // Change icon to pause button so user will know to press again to pause music
                 } else {
-                    music.muted = true;
-                    muteToggle.textContent = '🔇'; 
+                    music.muted = true; // Mute the music
+                    music.pause(); // Stop playback
+                    muteToggle.textContent = '▶️'; // Change icon back to play for user to know to press again to play
                 }
             });
 
