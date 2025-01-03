@@ -37,7 +37,8 @@ Building Cataverse improved my understanding of:
 - The importance of user experience, readability, and accessibility in web design.
 
 ## Resources
-The majority of the resources used, besides personal pictures of the featured cats Gizmo and Gio, majority of the gifs and buttons were used from https://gifcities.org/ and https://plasticdino.neocities.org/graphics (check out their site. It's really cool!).  
+Some personal pictures of my cats were used for this project. However, when it comes to the GIFs and buttons, those were obtained from both https://gifcities.org/ and https://plasticdino.neocities.org/ (check out their website; it's really cool!). 
+  
 ---
 
 Cataverse is a love letter to the nostalgia of early internet culture and the timeless appeal of cats. I hope you enjoy exploring this quirky project as much as I did building it!
